@@ -7,7 +7,7 @@ const ConceptCard = () => {
     <>
       {CORE_CONCEPTS.map((concept, index) => {
         return (
-          <div key={index} className="cursor-pointer hover:shadow-2xl rounded-2xl hover:scale-110 transition-all ease-in-out flex flex-col justify-center items-center gap-4">
+          <div key={index} className="max-md:p-6 cursor-pointer hover:shadow-2xl rounded-2xl hover:scale-110 transition-all ease-in-out flex flex-col justify-center items-center gap-4">
             <Image
               className="bg-[#361d4c] rounded-full"
               width={200}
