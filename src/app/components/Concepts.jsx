@@ -1,6 +1,4 @@
-import { CORE_CONCEPTS } from "@/app/data";
 import ConceptCard from "./ConceptCard";
-import ConceptCardTwo from "./ConceptCardTwo";
 
 const Concepts = () => {
   return (

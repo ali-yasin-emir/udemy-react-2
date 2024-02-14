@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Header = ({headerText, headerClass, pClass}) => {
+const Header = ({headerText, headerClass}) => {
   return (
     <div className='flex flex-col justify-center items-center gap-5 pt-16 px-6'>
         <h1 className={`${headerClass} bg-clip-text text-transparent bg-gradient-to-r from-[#ffbadd] to-[#ff82bc7e] font-semibold`}>{headerText}</h1>
